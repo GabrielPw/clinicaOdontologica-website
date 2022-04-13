@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar-se</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+
+    <header>
+        <nav class="menu">
+            <div class="paginas">
+                <div class="logo">Clínica Odontológica</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+            </div>
+            
+            <div class="registro">
+                <button><a href="cadastro.html">Cadastrar-se</a></button>
+                <button><a href="#">Login</a></button>
+            </div>
+            
+        </nav>
+    </header>
+    
+    <main class="cadastro">
+        <h1>Cadastre-se</h1>
+        <form action="/index.html" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nome completo</label>
+                    <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                    <label for="mail">E-mail</label>
+                    <input type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                    <label for="mail">Senha</label>
+                    <input type="password" id="mail" name="user_email" />
+                </li>
+                <li>
+                    <label for="mail">Data de nascimento</label>
+                    <input type="date" id="mail" name="user_email" />
+                </li>
+                
+                <button type="submit">Cadastrar</button>
+            </ul>
+        </form>
+        
+    </main>
+</body>
+</html>
